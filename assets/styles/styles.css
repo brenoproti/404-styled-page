@@ -66,3 +66,29 @@ footer {
   text-align: center;
   color: #bdbdbd;
 }
+
+@media screen and (max-width: 640px) {
+  main {
+    display: block;
+    margin: 0 auto;
+  }
+
+  main img {
+    width: 200px;
+  }
+
+  main .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+  }
+
+  .info h2 {
+    font-size: 24px;
+  }
+
+  .info p {
+    font-size: 18px;
+  }
+}
